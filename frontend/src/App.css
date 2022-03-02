@@ -1,0 +1,122 @@
+body {
+  background-color: #000;
+}
+
+.login-form {
+  display: flex;
+  background-color: #000;
+  flex-direction: column;
+  width: 200px;
+  height:250px;
+  padding:20px;
+  margin: 200px auto 0 auto;
+}
+
+.login-form label {
+  color: #fff;
+
+}
+
+input {
+  margin: 20px 0;
+	padding: 10px;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+}
+
+.login-form-input {
+  border-bottom: 1px solid #fff;
+	font-size: 18px;
+  height: 20px;
+  margin-bottom: 20px;
+}
+
+.button{
+	margin-top: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: transparent;
+	border: 1px solid #fff;
+	color: #fff;
+	font-size: 18px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.button:hover{
+	background: #fff;
+	color: #000;
+	transition-delay: 0.1s
+}
+
+.list-container {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+}
+
+.list-container-add{
+  display: flex;
+  flex-direction: column;
+  width:200px;
+  margin: 50px 100px;
+
+}
+
+.list-container-add input {
+  border-bottom: 1px solid #fff;
+	font-size: 18px;
+  height: 20px;
+  margin-bottom: 20px;
+
+}
+
+.list-container-table{
+  margin: 50px 0px;
+}
+
+.list-container-table table tbody tr{
+  margin-left: 10px;
+}
+
+.list-container-table table tbody tr th{
+  color: #fff;
+  padding-right: 20px;
+  font-size: 25px;
+}
+
+.list-container-table table tbody tr td {
+  color: #fff;
+  text-align: left;
+  padding-right: 20px;
+  padding-top: 20px;
+  font-size: 22px;
+  
+}
+
+.show-button {
+  padding: 5px 40px;
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 16px;
+}
+
+.show-button:hover {
+  background: #fff;
+  color:#000;
+  transition-delay:0.1s;
+}
+
+.password-input {
+  border: none;
+  outline: none;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+
+
